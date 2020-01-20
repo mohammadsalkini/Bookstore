@@ -10,8 +10,15 @@ import java.util.Map;
 import static fhtw.bsa1.projects.bookstore.BookstoreApp.printResult;
 
 public class BookstoreApp2 {
-
+    /**
+     *
+     * @param args
+     * @throws IOException
+     */
     public static void main(String[] args) throws IOException {
+/**
+ *
+ */
 
         List<String> lines = Files.readAllLines(Paths.get("src/fhtw/bsa1/projects/res/text"));
         HashMap<String, String> queries = new HashMap<>();
